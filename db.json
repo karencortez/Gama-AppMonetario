@@ -1,0 +1,18 @@
+{
+  "usuarios": [
+    {
+      "nome": "Thiago",
+      "email": "thiago@remail.com",
+      "senha": "123456",
+      "cpf": "12345678901",
+      "id": 1
+    }
+  ],
+  "contas": [
+    { 
+      "saldo": 1000,
+      "idUsuario": 1,
+      "id": 1
+    }
+  ]
+}
