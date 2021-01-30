@@ -1,0 +1,15 @@
+<div class="container">
+        <table class='table table-hover'>
+            <tr>
+                <th> IdUsuário: </th>
+                <th> id: </th>
+                <th> Saldo: </th>
+            </tr>
+        
+            <tr *ngFor='let transacao of transacoes'>
+                <td> {{ transacao.idUsuario }} </td>
+                <td> {{ transacao.id}} </td>
+                <td> {{ transacao.saldo }} </td>
+            </tr>
+        </table>
+    </div>
