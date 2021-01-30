@@ -1,7 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+import { ExtratoRoutingModule } from './extrato/extrato-routing.module';
+
+const routes: Routes = [{
+  path: 'extrato',
+  component: ExtratoRoutingModule,
+  }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

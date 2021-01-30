@@ -1,0 +1,36 @@
+{
+  "usuarios": [
+    {
+      "nome": "Thiago",
+      "email": "thiago@remail.com",
+      "senha": "123456",
+      "cpf": "12345678901",
+      "id": 1
+    },
+    {
+      "nome": "Bruno",
+      "email": "bruno@remail.com",
+      "senha": "654321",
+      "cpf": "0321654987",
+      "id": 2
+    }
+  ],
+  
+  "contas": [
+    { 
+      "saldo": 1000,
+      "idUsuario": 1,
+      "id": 1
+    },
+    { 
+      "saldo": 500,
+      "idUsuario": 1,
+      "id": 2
+    },
+    { 
+      "saldo": 3000,
+      "idUsuario": 2,
+      "id": 2
+    }
+  ]
+}
